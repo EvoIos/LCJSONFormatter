@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45583FCA1D0C1866007E47C6 /* LCStructInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 45583FC91D0C1866007E47C6 /* LCStructInfo.m */; };
+		45583FCD1D0C1883007E47C6 /* LCPbxprojectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 45583FCC1D0C1883007E47C6 /* LCPbxprojectInfo.m */; };
+		45583FDA1D0C19C6007E47C6 /* LCDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45583FD51D0C19C6007E47C6 /* LCDialogController.m */; };
+		45583FDB1D0C19C6007E47C6 /* LCDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45583FD61D0C19C6007E47C6 /* LCDialogController.xib */; };
+		45583FDC1D0C19C6007E47C6 /* LCInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45583FD81D0C19C6007E47C6 /* LCInputController.m */; };
+		45583FDD1D0C19C6007E47C6 /* LCInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45583FD91D0C19C6007E47C6 /* LCInputController.xib */; };
+		45583FDF1D0C1AEA007E47C6 /* DataModelsTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45583FDE1D0C1AEA007E47C6 /* DataModelsTemplate.txt */; };
+		4570FD131D0C11F1000622FE /* LCJSONFormatter.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 4570FD121D0C11F1000622FE /* LCJSONFormatter.xcscheme */; };
+		4570FD161D0C11F1000622FE /* LCJSONFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4570FD151D0C11F1000622FE /* LCJSONFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45583FC81D0C1866007E47C6 /* LCStructInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCStructInfo.h; sourceTree = "<group>"; };
+		45583FC91D0C1866007E47C6 /* LCStructInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCStructInfo.m; sourceTree = "<group>"; };
+		45583FCB1D0C1883007E47C6 /* LCPbxprojectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPbxprojectInfo.h; sourceTree = "<group>"; };
+		45583FCC1D0C1883007E47C6 /* LCPbxprojectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPbxprojectInfo.m; sourceTree = "<group>"; };
+		45583FD41D0C19C6007E47C6 /* LCDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDialogController.h; sourceTree = "<group>"; };
+		45583FD51D0C19C6007E47C6 /* LCDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDialogController.m; sourceTree = "<group>"; };
+		45583FD61D0C19C6007E47C6 /* LCDialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCDialogController.xib; sourceTree = "<group>"; };
+		45583FD71D0C19C6007E47C6 /* LCInputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCInputController.h; sourceTree = "<group>"; };
+		45583FD81D0C19C6007E47C6 /* LCInputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCInputController.m; sourceTree = "<group>"; };
+		45583FD91D0C19C6007E47C6 /* LCInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCInputController.xib; sourceTree = "<group>"; };
+		45583FDE1D0C1AEA007E47C6 /* DataModelsTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DataModelsTemplate.txt; sourceTree = "<group>"; };
+		4570FD0E1D0C11F1000622FE /* LCJSONFormatter.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCJSONFormatter.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		4570FD121D0C11F1000622FE /* LCJSONFormatter.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LCJSONFormatter.xcscheme; path = LCJSONFormatter.xcodeproj/xcshareddata/xcschemes/LCJSONFormatter.xcscheme; sourceTree = SOURCE_ROOT; };
+		4570FD141D0C11F1000622FE /* LCJSONFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCJSONFormatter.h; sourceTree = "<group>"; };
+		4570FD151D0C11F1000622FE /* LCJSONFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCJSONFormatter.m; sourceTree = "<group>"; };
+		4570FD171D0C11F1000622FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4570FD1D1D0C1260000622FE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		45583FC71D0C183D007E47C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45583FC81D0C1866007E47C6 /* LCStructInfo.h */,
+				45583FC91D0C1866007E47C6 /* LCStructInfo.m */,
+				45583FCB1D0C1883007E47C6 /* LCPbxprojectInfo.h */,
+				45583FCC1D0C1883007E47C6 /* LCPbxprojectInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45583FD31D0C19A1007E47C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45583FD41D0C19C6007E47C6 /* LCDialogController.h */,
+				45583FD51D0C19C6007E47C6 /* LCDialogController.m */,
+				45583FD61D0C19C6007E47C6 /* LCDialogController.xib */,
+				45583FD71D0C19C6007E47C6 /* LCInputController.h */,
+				45583FD81D0C19C6007E47C6 /* LCInputController.m */,
+				45583FD91D0C19C6007E47C6 /* LCInputController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4570FD061D0C11F1000622FE = {
+			isa = PBXGroup;
+			children = (
+				4570FD101D0C11F1000622FE /* LCJSONFormatter */,
+				4570FD0F1D0C11F1000622FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4570FD0F1D0C11F1000622FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4570FD0E1D0C11F1000622FE /* LCJSONFormatter.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4570FD101D0C11F1000622FE /* LCJSONFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				45583FD31D0C19A1007E47C6 /* Controller */,
+				45583FC71D0C183D007E47C6 /* Model */,
+				4570FD141D0C11F1000622FE /* LCJSONFormatter.h */,
+				4570FD151D0C11F1000622FE /* LCJSONFormatter.m */,
+				4570FD111D0C11F1000622FE /* Supporting Files */,
+			);
+			path = LCJSONFormatter;
+			sourceTree = "<group>";
+		};
+		4570FD111D0C11F1000622FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45583FDE1D0C1AEA007E47C6 /* DataModelsTemplate.txt */,
+				4570FD171D0C11F1000622FE /* Info.plist */,
+				4570FD121D0C11F1000622FE /* LCJSONFormatter.xcscheme */,
+				4570FD1D1D0C1260000622FE /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4570FD0D1D0C11F1000622FE /* LCJSONFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4570FD1A1D0C11F1000622FE /* Build configuration list for PBXNativeTarget "LCJSONFormatter" */;
+			buildPhases = (
+				4570FD0B1D0C11F1000622FE /* Sources */,
+				4570FD0C1D0C11F1000622FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCJSONFormatter;
+			productName = LCJSONFormatter;
+			productReference = 4570FD0E1D0C11F1000622FE /* LCJSONFormatter.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4570FD071D0C11F1000622FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LC;
+				TargetAttributes = {
+					4570FD0D1D0C11F1000622FE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4570FD0A1D0C11F1000622FE /* Build configuration list for PBXProject "LCJSONFormatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4570FD061D0C11F1000622FE;
+			productRefGroup = 4570FD0F1D0C11F1000622FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4570FD0D1D0C11F1000622FE /* LCJSONFormatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4570FD0C1D0C11F1000622FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45583FDD1D0C19C6007E47C6 /* LCInputController.xib in Resources */,
+				45583FDB1D0C19C6007E47C6 /* LCDialogController.xib in Resources */,
+				45583FDF1D0C1AEA007E47C6 /* DataModelsTemplate.txt in Resources */,
+				4570FD131D0C11F1000622FE /* LCJSONFormatter.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4570FD0B1D0C11F1000622FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4570FD161D0C11F1000622FE /* LCJSONFormatter.m in Sources */,
+				45583FCD1D0C1883007E47C6 /* LCPbxprojectInfo.m in Sources */,
+				45583FDC1D0C19C6007E47C6 /* LCInputController.m in Sources */,
+				45583FDA1D0C19C6007E47C6 /* LCDialogController.m in Sources */,
+				45583FCA1D0C1866007E47C6 /* LCStructInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4570FD181D0C11F1000622FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4570FD191D0C11F1000622FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4570FD1B1D0C11F1000622FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PREFIX_HEADER = LCJSONFormatter/PrefixHeader.pch;
+				INFOPLIST_FILE = LCJSONFormatter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ablackcrow.www.LCJSONFormatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		4570FD1C1D0C11F1000622FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PREFIX_HEADER = LCJSONFormatter/PrefixHeader.pch;
+				INFOPLIST_FILE = LCJSONFormatter/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ablackcrow.www.LCJSONFormatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4570FD0A1D0C11F1000622FE /* Build configuration list for PBXProject "LCJSONFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4570FD181D0C11F1000622FE /* Debug */,
+				4570FD191D0C11F1000622FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4570FD1A1D0C11F1000622FE /* Build configuration list for PBXNativeTarget "LCJSONFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4570FD1B1D0C11F1000622FE /* Debug */,
+				4570FD1C1D0C11F1000622FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4570FD071D0C11F1000622FE /* Project object */;
+}

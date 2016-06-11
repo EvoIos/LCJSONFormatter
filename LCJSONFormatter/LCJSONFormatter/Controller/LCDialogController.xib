@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LCDialogController">
+            <connections>
+                <outlet property="inputTextField" destination="jeZ-Se-tvs" id="OIZ-bs-nFs"/>
+                <outlet property="tipsLabel" destination="dfL-hp-Xg0" id="yLb-1j-oop"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" unifiedTitleAndToolbar="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="352" height="93"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="93"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="dfL-hp-Xg0">
+                        <rect key="frame" x="-2" y="56" width="356" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="kUA-mz-OeK"/>
+                        </constraints>
+                        <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" alignment="center" title="Multiline Label" id="3Ko-AI-OhV">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jeZ-Se-tvs">
+                        <rect key="frame" x="20" y="20" width="312" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="RQI-5r-4PS"/>
+                        </constraints>
+                        <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="struct name" drawsBackground="YES" id="oCw-2v-RCP">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jeZ-Se-tvs" firstAttribute="top" secondItem="dfL-hp-Xg0" secondAttribute="bottom" constant="8" id="0n9-AC-Kvf"/>
+                    <constraint firstAttribute="trailing" secondItem="jeZ-Se-tvs" secondAttribute="trailing" constant="20" id="Jgn-7N-v5h"/>
+                    <constraint firstItem="dfL-hp-Xg0" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="PVg-pd-dZz"/>
+                    <constraint firstItem="jeZ-Se-tvs" firstAttribute="centerX" secondItem="se5-gp-TjO" secondAttribute="centerX" id="QyY-WS-V95"/>
+                    <constraint firstItem="dfL-hp-Xg0" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="20" id="dGR-nm-FRt"/>
+                    <constraint firstAttribute="trailing" secondItem="dfL-hp-Xg0" secondAttribute="trailing" id="hCG-mc-Fei"/>
+                    <constraint firstItem="jeZ-Se-tvs" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="s5i-TX-ONV"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="149" y="182.5"/>
+        </window>
+    </objects>
+</document>

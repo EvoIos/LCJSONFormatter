@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  LCJSONFormatter
+//
+//  Created by zhenglanchun on 16/6/11.
+//  Copyright © 2016年 LC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define LCFormatResultNotification @"LCFormatResultNotification"
+#define LCClassName @"LCClassName"
+#define LCClassNameKey @"LCClassNameKey"
+
+#define LCArrayKeyName @"lcArray"
+
+#define ESJsonFormatPluginPath [[NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"Developer/Shared/Xcode/Plug-ins/LCJSONFormatter.xcplugin"]
+
+#define headerFuncStr @"\nstruct %@: Decodable { \n %@ \n\n    static func decode(json: JSON) -> Decoded<%@> {\n          return curry(self.init)%@\n     }\n}\n "
+
+#endif /* PrefixHeader_pch */
