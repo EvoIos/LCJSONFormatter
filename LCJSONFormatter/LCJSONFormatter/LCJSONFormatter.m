@@ -305,7 +305,8 @@ static LCJSONFormatter *sharedPlugin;
     NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Window"];
     if (menuItem) {
         [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"LCJSONFromatter" action:@selector(LCJSONFromatter) keyEquivalent:@""];
+       NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"LCJSONFromatter" action:@selector(LCJSONFromatter) keyEquivalent:@"X"];
+        [actionMenuItem setKeyEquivalentModifierMask:NSShiftKeyMask|NSCommandKeyMask];
         [actionMenuItem setTarget:self];
         [[menuItem submenu] addItem:actionMenuItem];
         return YES;
