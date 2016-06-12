@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+
 #define LCFormatResultNotification @"LCFormatResultNotification"
 #define LCClassName @"LCClassName"
 #define LCClassNameKey @"LCClassNameKey"
