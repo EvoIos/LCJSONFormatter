@@ -22,8 +22,6 @@ Build the `LCJSONFormatter` target in the Xcode project and the plug-in will aut
 
 Install [Alcatraz](http://alcatraz.io/), restart Xcode . In Alcatraz window, search target `LCJSONFormatter`, then install it.
 
-![LCJSONFormatter-Alcatraz](https://github.com/EvoIos/LCJSONFormatter/blob/master/images/Alcatraz-Install-LCJSONFormatter.png)
-
 ### Usage
 
 **First**
